@@ -14,17 +14,17 @@ import Clubs from "./Components/Clubs";
 function App() {
   return (
     <>
-    <Navbar />
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/work" element={<Work />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/clubs" element={<Clubs />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-  </BrowserRouter>
-  </>
+      <BrowserRouter>
+      <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/clubs" element={<Clubs />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+    </BrowserRouter>
+    </>
   );
 }
 

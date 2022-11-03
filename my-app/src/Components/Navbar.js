@@ -1,19 +1,26 @@
-
+import { Link } from "react-router-dom"
+import profilePic from "./profileIcon.png"
 export default function Navbar(){
-    return <nav className="nav">
-        <a href = "/" className = "site-title">Jason</a>
+    return <nav className="nav">     
+        <Link to = "/" className = "site-title">
+            <img src = {profilePic} id = "icon" alt = "icon" />Jason
+            </Link>
         <ul>
             <li>
-                <a href = "/work">Work</a>
+                <Link to = "/work">Work</Link>
             </li>
             <li>
-                <a href = "/projects">Projects</a>
+                <Link to = "/projects">Projects</Link>
             </li>
             <li>
-                <a href = "/clubs">Clubs</a>
+                <Link to = "/clubs">Clubs</Link>
             </li>
             <li>
-                <a href = "/contact">Contact Me</a>
+                <Link to = "/contact">
+                <button>
+                    Contact Me
+                </button>
+                </Link>
             </li>
         </ul>
     </nav>

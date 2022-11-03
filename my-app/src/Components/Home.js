@@ -1,6 +1,7 @@
+import backPic from './backPic.jpg'
 function Home(){
     return (
-        <h1>Home!</h1>
+        <img src={backPic} alt = "Background"/>
     );
 }
 

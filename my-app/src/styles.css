@@ -1,24 +1,42 @@
 * {
     box-sizing: border-box;
-    font-size: 1.25rem;
+    font-size: 1.05rem;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
     margin: 0;
 }
 
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#icon {
+    max-width: 40px;
+    gap: 0;
+    padding-right: 10px;
+}
+
 .nav {
-    background-color: #333;
-    color: white;
+    background-color: white;
+    color: black;
     display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+    justify-content:space-between;
+    align-items: center;
     gap: 2rem;
-    padding: 0 1rem;
+    padding: 1rem 8rem;
 }
 
 .site-title {
-    font-size: 3rem;
+    padding-left: 0%;
+    font-size: 2rem;
+    font-weight:700;
 }
 
 .nav ul {
@@ -30,7 +48,7 @@ body {
 }
 
 .nav li:hover {
-    background-color: #777;
+    color: #777;
 }
 
 .nav a {
@@ -39,6 +57,21 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
-    padding: .25rem;
+    padding: 0rem 1rem;
 }
 
+button {
+    vertical-align: middle;
+    background-color: #1dacd6;
+    color: white;
+    border-color: transparent;
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin-left: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cf6dde;
+}
