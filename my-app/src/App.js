@@ -10,13 +10,15 @@ import Navbar from "./Components/Navbar";
 import Contact from "./Components/Contact";
 import Projects from "./Components/Projects";
 import Clubs from "./Components/Clubs";
+import React from 'react';
 
-function App() {
+
+function App (){
   return (
     <>
       <BrowserRouter>
-      <Navbar />
-        <Routes>
+      <Navbar/>
+        <Routes >
           <Route path="/" element={<Home />} />
           <Route path="/work" element={<Work />} />
           <Route path="/projects" element={<Projects />} />

@@ -1,7 +1,7 @@
-import backPic from './backPic.jpg'
+import TJSoccer from './TJSPIC.jpg'
 function Home(){
     return (
-        <img src={backPic} alt = "Background"/>
+        <img src={TJSoccer} alt = "Background"/>
     );
 }
 

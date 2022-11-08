@@ -1,7 +1,28 @@
 import { Link } from "react-router-dom"
+import React from 'react'
 import profilePic from "./profileIcon.png"
-export default function Navbar(){
-    return <nav className="nav">     
+import { useEffect } from 'react'
+export default function Navbar() {
+
+    useEffect(() => {
+
+        const change = () => {
+
+            let scrollPosition = Math.round(window.scrollY);
+
+            if (scrollPosition > 75) {
+                document.getElementById("nav").classList.add("sticky");
+            }
+            else {
+                document.getElementById("nav").classList.remove("sticky");
+            }
+        }
+        window.addEventListener("scroll", change)
+    }, []
+    )
+
+    return(
+    <nav className="nav" id = "nav">     
         <Link to = "/" className = "site-title">
             <img src = {profilePic} id = "icon" alt = "icon" />Jason
             </Link>
@@ -24,4 +45,5 @@ export default function Navbar(){
             </li>
         </ul>
     </nav>
+    )
 }

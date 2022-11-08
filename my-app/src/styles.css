@@ -23,23 +23,32 @@ img {
     padding-right: 10px;
 }
 
-.nav {
+#nav {
     background-color: white;
     color: black;
     display: flex;
     justify-content:space-between;
     align-items: center;
     gap: 2rem;
-    padding: 1rem 8rem;
+    padding: 1.5rem 8rem;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    transition: padding 300ms ease;
 }
 
-.site-title {
+#nav.sticky {
+    padding: 1rem 8rem;
+    border-bottom: 2px solid black;
+}
+
+#site-title {
     padding-left: 0%;
     font-size: 2rem;
     font-weight:700;
 }
 
-.nav ul {
+#nav ul {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -47,11 +56,11 @@ img {
     gap: 1rem;
 }
 
-.nav li:hover {
+#nav li:hover {
     color: #777;
 }
 
-.nav a {
+#nav a {
     color: inherit;
     text-decoration: none;
     height: 100%;
