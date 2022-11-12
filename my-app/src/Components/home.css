@@ -1,0 +1,46 @@
+#mainPic {
+    float: right;
+    margin: 0;
+    margin-right: 160px;
+    max-width: 40%;
+}
+
+#intro {
+    position: relative;
+    font-size: 72px;
+    left: 215px;
+    top: 185px;
+}
+
+#name {
+    position: relative;
+    font-size: 72px;
+    font-weight: bold;
+    left: 215px;
+    top: 190px;
+    height: 100%;
+}
+
+#statement {
+    position: relative;
+    font-size: 36px;
+    left: 215px;
+    top: 290px;
+    height: 100%;
+
+}
+
+#welcome {
+    position: relative;
+    font-size: 36px;
+    left: 215px;
+    top: 390px;
+    height: 100%;
+}
+
+#container {
+    padding: 0;
+    margin: 0;
+    background-image: url('./backgroundv6.jpg');
+    overflow: hidden;
+}

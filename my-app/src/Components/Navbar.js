@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import React from 'react'
 import profilePic from "./profileIcon.png"
 import { useEffect } from 'react'
+import "../styles.css"
 export default function Navbar() {
 
     useEffect(() => {
