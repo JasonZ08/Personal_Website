@@ -1,8 +1,13 @@
 import mainPic from './mainPicNBG2.png'
+import MyNavBar from './Navbar';
+import "bootstrap/dist/css/bootstrap.min.css";
+
+
 import './home.css'
 function Home(){
     return (
-        <div id = 'container'>
+        <div id = 'container' className='Home'>
+            <MyNavBar/> 
             <div id = 'intro'>Hey! I'm</div>
             <div id = 'name'>Jason Zhong</div>
             <div id = 'statement'>A current 
