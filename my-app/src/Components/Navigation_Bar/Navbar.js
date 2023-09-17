@@ -5,6 +5,8 @@ import Button from 'react-bootstrap/Button'
 import Image from 'react-bootstrap/Image'
 import Navbar from 'react-bootstrap/Navbar';
 
+//make buttons on the navbar reuseable
+
 const MyNavBar = () => {
     return (
         <Navbar fixed="top" expand="lg" bg="dark" data-bs-theme="dark" className='p-4'>
@@ -20,6 +22,15 @@ const MyNavBar = () => {
                                 <h4>Jason Zhong</h4>
                             </Button>{' '}
                         </Nav.Link>
+                        <Button variant='dark'>
+                                <h4>Experience</h4>
+                        </Button>{' '}
+                        <Button variant='dark'>
+                            <h4>Projects</h4>
+                        </Button>{' '}
+                        <Button variant='dark'>
+                            <h4>Courses</h4>
+                        </Button>{' '}
                     </Nav>
                 </Navbar.Collapse>
             </Container>
