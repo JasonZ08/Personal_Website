@@ -1,0 +1,8 @@
+.ExpContainer {
+    text-align: center;
+}
+
+.ExpCards {
+    display: flex;
+    justify-content: center;
+}

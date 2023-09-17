@@ -1,5 +1,6 @@
 import MyNavBar from '../Navigation_Bar/Navbar';
 import Introduction from '../Introduction/Introduction';
+import Experience from '../Experience/Experience';
 import Stack from 'react-bootstrap/Stack';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './home.css'
@@ -11,7 +12,7 @@ function Home(){
             <Stack>
                 <MyNavBar/> 
                 <Introduction />
-                <div>Hi</div>
+                <Experience />
             </Stack>
         </div>
     );

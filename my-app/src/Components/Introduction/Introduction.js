@@ -8,7 +8,7 @@ function Introduction(){
                 <div className= 'group1'>
                     <h1> Hey, I'm Jason Zhong! </h1>
                     <p>
-                        <div>
+                        <div className="Intro">
                         I'm a current undergraduate at the University of Maryland
                         and an aspiring software engineer. Coding has always been
                         fun for me, and I hope that my work can benefit people across the globe.
