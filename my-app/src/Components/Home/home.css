@@ -2,45 +2,36 @@
     background-color: #f0f0f0;
 }
 
-
-/*
-#mainPic {
-    float: right;
-    margin: 0;
-    margin-right: 160px;
-    max-width: 40%;
-}
-
-#intro {
-    position: relative;
-    font-size: 72px;
-    left: 215px;
-    top: 185px;
-}
-
-#name {
-    position: relative;
-    font-size: 72px;
-    font-weight: bold;
-    left: 215px;
-    top: 190px;
+.Introduction {
+    min-height: 100vh;
+    min-width: 100vh;
     height: 100%;
 }
 
-#statement {
-    position: relative;
-    font-size: 36px;
-    left: 215px;
-    top: 290px;
-    height: 100%;
-
+.Positioning {
+    display: flex;
+    padding-top: 350px;
+    padding-left: 200px;
+    align-items: center;
 }
 
-#welcome {
-    position: relative;
-    font-size: 36px;
-    left: 215px;
-    top: 390px;
-    height: 100%;
+.group1 {
+    padding-right: 300px;
 }
-*/
+
+h1 {
+    padding-bottom: 20px;
+    font-size: 60px;
+}
+
+div {
+    font-size: 20px;
+}
+
+p {
+    width: 600px;
+}
+
+.Separate {
+    padding-top: 20px;
+}
