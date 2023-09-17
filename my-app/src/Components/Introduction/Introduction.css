@@ -1,0 +1,33 @@
+.Introduction {
+    min-height: 100vh;
+    min-width: 100vh;
+    height: 100%;
+}
+
+.Positioning {
+    display: flex;
+    padding-top: 350px;
+    padding-left: 200px;
+    align-items: center;
+}
+
+.group1 {
+    padding-right: 300px;
+}
+
+h1 {
+    padding-bottom: 20px;
+    font-size: 60px;
+}
+
+div {
+    font-size: 20px;
+}
+
+p {
+    width: 600px;
+}
+
+.Separate {
+    padding-top: 20px;
+}
