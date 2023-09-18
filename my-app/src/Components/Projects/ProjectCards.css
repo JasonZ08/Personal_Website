@@ -1,0 +1,8 @@
+.ProjContainer {
+    text-align: center;
+}
+
+.ProjCards {
+    display: flex;
+    justify-content: center;
+}

@@ -1,9 +1,5 @@
 import './Experience.css'
 import "bootstrap/dist/css/bootstrap.min.css";
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card'
-import Stack from 'react-bootstrap/Stack';
 import ExperienceCards from './ExperienceCards';
 
 function Experience() {

@@ -2,6 +2,7 @@ import MyNavBar from '../Navigation_Bar/Navbar';
 import Introduction from '../Introduction/Introduction';
 import Experience from '../Experience/Experience';
 import Stack from 'react-bootstrap/Stack';
+import Projects from '../Projects/Projects';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './home.css'
 
@@ -13,6 +14,7 @@ function Home(){
                 <MyNavBar/> 
                 <Introduction />
                 <Experience />
+                <Projects />
             </Stack>
         </div>
     );
