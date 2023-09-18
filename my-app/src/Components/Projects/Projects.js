@@ -24,7 +24,7 @@ function Projects(){
 
     return (
         <div className="ProjContainer">
-            <h1>Projects</h1>
+            <h1 className="py-5">Projects</h1>
             <div>
             {Array.from({ length: 2 }).map((_, idx) => (
                 <div className='ProjCards' key = {idx}>

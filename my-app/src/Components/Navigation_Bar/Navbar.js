@@ -31,6 +31,9 @@ const MyNavBar = () => {
                         <Button variant='dark'>
                             <h4>Courses</h4>
                         </Button>{' '}
+                        <Button variant='dark'>
+                            <h4>Clubs</h4>
+                        </Button>{' '}
                     </Nav>
                 </Navbar.Collapse>
             </Container>

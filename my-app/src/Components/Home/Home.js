@@ -5,6 +5,7 @@ import Stack from 'react-bootstrap/Stack';
 import Projects from '../Projects/Projects';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './home.css'
+import Coursework from '../Coursework/Coursework';
 
 
 function Home(){
@@ -15,6 +16,7 @@ function Home(){
                 <Introduction />
                 <Experience />
                 <Projects />
+                <Coursework />
             </Stack>
         </div>
     );

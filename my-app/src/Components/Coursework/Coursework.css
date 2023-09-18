@@ -1,0 +1,20 @@
+.CourseHeading {
+    text-align: center;
+}
+
+.CourseContainer {
+    background-color: #D3D3D3;
+}
+
+.col {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+
+.header {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
