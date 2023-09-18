@@ -1,22 +1,20 @@
 import Card from 'react-bootstrap/Card';
 import './ExperienceCards.css'
 
-function ExperienceCards(){
+function ExperienceCards(props){
+    const {picture, title, text} = props.values
     return (
-        <>
-        <Card className='cardEdit'>
-            <Card.Img  variant="top" src="travelers_back.png"/>
+    <div className='cardEdit'>
+        <Card>
+            <Card.Img  variant="top" src={picture}/>
             <Card.Body>
-                <Card.Title>Travelers</Card.Title>
+                <Card.Title className='fs-2'>{title}</Card.Title>
                 <Card.Text>
-                    Some stuff about Travelers Some stuff about Travelers 
-                    Some stuff about Travelers Some stuff about Travelers
-                    Some stuff about Travelers Some stuff about Travelers
-                    Some stuff about Travelers Some stuff about Travelers 
+                    {text}
                 </Card.Text> 
             </Card.Body>
         </Card>
-    </>
+    </div>
     )
 }
 
