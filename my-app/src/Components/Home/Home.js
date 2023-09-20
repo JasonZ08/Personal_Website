@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import './home.css'
 import Coursework from '../Coursework/Coursework';
 import Clubs from '../Clubs/Clubs';
+import Contact from '../Contact/Contact';
 
 
 function Home(){
@@ -19,6 +20,7 @@ function Home(){
                 <Projects />
                 <Coursework />
                 <Clubs />
+                <Contact />
             </Stack>
         </div>
     );
