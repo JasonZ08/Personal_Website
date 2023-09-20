@@ -1,0 +1,8 @@
+.ClubContainer {
+    text-align: center;
+}
+
+.ClubCards {
+    display: flex;
+    justify-content: center;
+}
