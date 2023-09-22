@@ -18,20 +18,35 @@ const MyNavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link>
-                            <Button variant='dark'>
+                            <Button variant='dark' onClick={() => {
+                                const intro = document.getElementsByClassName("Introduction")[0]
+                                intro.scrollIntoView({ behavior: 'smooth' });
+                            }}>
                                 <h4>Jason Zhong</h4>
                             </Button>{' '}
                         </Nav.Link>
-                        <Button variant='dark'>
+                        <Button variant='dark' onClick={() => {
+                                const intro = document.getElementsByClassName("ExpContainer")[0]
+                                intro.scrollIntoView({ block: "start", behavior: 'smooth' });
+                            }}>
                                 <h4>Experience</h4>
                         </Button>{' '}
-                        <Button variant='dark'>
+                        <Button variant='dark' onClick={() => {
+                                const intro = document.getElementsByClassName("ProjContainer")[0]
+                                intro.scrollIntoView({ block: "start", behavior: 'smooth' });
+                            }}>
                             <h4>Projects</h4>
                         </Button>{' '}
-                        <Button variant='dark'>
+                        <Button variant='dark' onClick={() => {
+                                const intro = document.getElementsByClassName("CourseContainer")[0]
+                                intro.scrollIntoView({ block: "start", behavior: 'smooth' });
+                            }}>
                             <h4>Courses</h4>
                         </Button>{' '}
-                        <Button variant='dark'>
+                        <Button variant='dark' onClick={() => {
+                                const intro = document.getElementsByClassName("ClubContainer")[0]
+                                intro.scrollIntoView({ block: "start", behavior: 'smooth' });
+                            }}>
                             <h4>Clubs</h4>
                         </Button>{' '}
                     </Nav>
