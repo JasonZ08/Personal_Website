@@ -16,7 +16,7 @@ function Introduction(){
                         <div className='Separate'>Welcome to my website!</div> 
                     </div>
                 </div>
-                <img width={400} height={400} src='/intro_pic.png'/>
+                <img width={400} height={400} src='/intro_pic.png' alt="my picture"/>
             </div>
         </div>
     )
