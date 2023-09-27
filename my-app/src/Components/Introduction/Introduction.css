@@ -6,17 +6,17 @@
 
 .Positioning {
     display: flex;
-    padding-top: 350px;
-    padding-left: 200px;
+    padding-top: 30vh;
+    padding-left: 35vh;
     align-items: center;
 }
 
 .group1 {
-    padding-right: 300px;
+    padding-right: 20vh;
 }
 
 h1 {
-    padding-bottom: 20px;
+    padding-bottom: 2vh;
     font-size: 60px;
 }
 
@@ -25,9 +25,9 @@ div {
 }
 
 .Intro {
-    width: 600px;
+    width: 60vh;
 }
 
 .Separate {
-    padding-top: 20px;
+    padding-top: 5vh;
 }
