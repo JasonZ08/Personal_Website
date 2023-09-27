@@ -1,7 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Contact.css"
-import Button from 'react-bootstrap/Button';
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 function Contact() {
     return (
