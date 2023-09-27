@@ -7,11 +7,8 @@ function Contact() {
     return (
         <div className="ContactContainer">
             <h1 className="py-5 ">
-                Contact
+                Contacts
             </h1>
-            <h3 className="py-3">
-                Form Coming Soon!
-            </h3>
             <div className="ButtonContainer py-3">
                 <img src="phone.png" width={25} height={25}/><span className="ps-2 pe-4">571-268-7291</span>
                 <img src="mail.png" width={25} height={25}/><span className="ps-2 pe-4">jasonzhong0408@gmail.com</span>
