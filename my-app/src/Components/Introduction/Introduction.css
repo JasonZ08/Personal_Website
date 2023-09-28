@@ -1,33 +1,7 @@
 .Introduction {
-    min-height: 100vh;
-    min-width: 100vh;
-    height: 100%;
-}
-
-.Positioning {
-    display: flex;
-    padding-top: 30vh;
-    padding-left: 35vh;
-    align-items: center;
-}
-
-.group1 {
-    padding-right: 20vh;
-}
-
-h1 {
-    padding-bottom: 2vh;
-    font-size: 60px;
+    text-align: center;
 }
 
 div {
     font-size: 20px;
-}
-
-.Intro {
-    width: 60vh;
-}
-
-.Separate {
-    padding-top: 5vh;
 }

@@ -5,10 +5,10 @@ function ProjectCards(props){
     const {title, text} = props.values
     return (
     <div className='cardEdit'>
-        <Card style={{ width: '40rem' }}>
+        <Card>
             <Card.Body>
-                <Card.Title className='fs-2'>{title}</Card.Title>
-                <Card.Text>
+                <Card.Title className='fs-1 py-3'>{title}</Card.Title>
+                <Card.Text className='fs-5'>
                     {text}
                 </Card.Text> 
             </Card.Body>

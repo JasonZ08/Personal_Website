@@ -1,6 +1,9 @@
 import './Experience.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import ExperienceCards from './ExperienceCards';
+import Container from "react-bootstrap/esm/Container";
+import Row from "react-bootstrap/esm/Row";
+import Col from "react-bootstrap/esm/Col";
 
 function Experience() {
     const data = [
@@ -41,14 +44,18 @@ function Experience() {
     return (
         <div className="ExpContainer py-5">
             <h1>Experience</h1>
-            <div>
-            {Array.from({ length: 2 }).map((_, idx) => (
-                <div className='ExpCards' key = {idx}>
-                    <ExperienceCards values={data[idx*2]}/>
-                    <ExperienceCards values={data[idx*2 + 1]}/>
-                </div>
-            ))}
-            </div>
+            <Container fluid="md">
+                {Array.from({ length: 2 }).map((_, idx) => (
+                    <Row className="py-5"key = {idx}>
+                        <Col className="px-5">
+                            <ExperienceCards values={data[idx*2]}/>
+                        </Col>
+                        <Col className="px-5">
+                            <ExperienceCards values={data[idx*2 + 1]}/>
+                        </Col>
+                    </Row>
+                ))}
+            </Container>
         </div>
     )
 }

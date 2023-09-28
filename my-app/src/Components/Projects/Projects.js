@@ -1,6 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import ProjectCards from "./ProjectCards";
 import "./ProjectCards.css"
+import Container from "react-bootstrap/esm/Container";
+import Row from "react-bootstrap/esm/Row";
+import Col from "react-bootstrap/esm/Col";
 
 function Projects(){
     const data = [
@@ -36,14 +39,14 @@ function Projects(){
     return (
         <div className="ProjContainer">
             <h1 className="py-5">Projects</h1>
-            <div>
-            {Array.from({ length: 2 }).map((_, idx) => (
-                <div className='ProjCards' key = {idx}>
-                    <ProjectCards values={data[idx*2]}/>
-                    <ProjectCards values={data[idx*2 + 1]}/>
-                </div>
-            ))}
-            </div>
+            <Container fluid="md">
+                {Array.from({ length: 2 }).map((_, idx) => (
+                    <Row className="py-5" key = {idx}>
+                        <Col className="px-5"><ProjectCards values={data[idx*2]}/></Col>
+                        <Col className="px-5"><ProjectCards values={data[idx*2 + 1]}/></Col>
+                    </Row>
+                ))}
+            </Container>
         </div>
     )
 }

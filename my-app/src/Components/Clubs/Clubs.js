@@ -1,6 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Clubs.css"
 import ClubCards from "./ClubCards";
+import Container from "react-bootstrap/esm/Container";
+import Row from "react-bootstrap/esm/Row";
+import Col from "react-bootstrap/esm/Col";
 
 function Clubs() {
     const data = [
@@ -25,14 +28,17 @@ function Clubs() {
     return (    
         <div className="ClubContainer">
             <h1 className="py-5">Clubs</h1>
-            <div>
-                {Array.from({ length: 1 }).map((_, idx) => (
-                    <div className='ClubCards' key = {idx}>
-                        <ClubCards values={data[idx*2]}/>
-                        <ClubCards values={data[idx*2 + 1]}/>
-                    </div>
-                ))}
-            </div>
+            <Container fluid="md">
+                <div>
+                    {Array.from({ length: 1 }).map((_, idx) => (
+                        <Row className="py-5" key = {idx}>
+                            <Col className="px-5"><ClubCards values={data[idx*2]}/></Col>
+                            
+                            <Col className="px-5"><ClubCards values={data[idx*2 + 1]}/></Col>
+                        </Row>
+                    ))}
+                </div>
+            </Container>  
         </div>
     )
 }

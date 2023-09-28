@@ -10,7 +10,7 @@ import Navbar from 'react-bootstrap/Navbar';
 const MyNavBar = () => {
     return (
         <Navbar fixed="top" expand="lg" bg="dark" data-bs-theme="dark" className='p-4'>
-            <Container className='mx-6'>
+            <Container fluid="md">
                 <Navbar.Brand>
                     <Image src="/profileIcon.png" roundedCircle />
                 </Navbar.Brand>

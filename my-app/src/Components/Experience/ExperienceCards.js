@@ -8,9 +8,9 @@ function ExperienceCards(props){
         <Card>
             <Card.Img  variant="top" src={picture}/>
             <Card.Body>
-                <Card.Title className='fs-2'>{title}</Card.Title>
-                <Card.Subtitle>{date}</Card.Subtitle>
-                <Card.Text>
+                <Card.Title className='fs-1 py-2'>{title}</Card.Title>
+                <Card.Subtitle className='py-3 fs-4'>{date}</Card.Subtitle>
+                <Card.Text className='fs-5'>
                     {text}
                 </Card.Text> 
             </Card.Body>
@@ -19,4 +19,4 @@ function ExperienceCards(props){
     )
 }
 
-export default ExperienceCards
+export default ExperienceCards      

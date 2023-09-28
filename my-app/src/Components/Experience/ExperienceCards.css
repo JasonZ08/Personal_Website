@@ -1,12 +1,5 @@
-.cardEdit {
-    margin-top: 5vh;
-    margin-bottom: 20vh;
-    margin-left: 15vh;
-    margin-right: 15vh;
-}
-
 .card {
-    box-shadow: 2vh 4vh 8vh 2vh rgba(0, 0, 0, 0.253) !important;
+    box-shadow: 2vh 4vh 6vh 0vh rgba(0, 0, 0, 0.253) !important;
     width: inherit;
 }
 
