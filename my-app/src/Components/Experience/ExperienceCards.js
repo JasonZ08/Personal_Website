@@ -10,7 +10,7 @@ function ExperienceCards(props){
             <Card.Body>
                 <Card.Title className='fs-1 py-2'>{title}</Card.Title>
                 <Card.Subtitle className='py-3 fs-4'>{date}</Card.Subtitle>
-                <Card.Text className='fs-5'>
+                <Card.Text className='fs-6'>
                     {text}
                 </Card.Text> 
             </Card.Body>

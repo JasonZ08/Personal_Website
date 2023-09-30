@@ -8,7 +8,7 @@ function ProjectCards(props){
         <Card>
             <Card.Body>
                 <Card.Title className='fs-1 py-3'>{title}</Card.Title>
-                <Card.Text className='fs-5'>
+                <Card.Text className='fs-6'>
                     {text}
                 </Card.Text> 
             </Card.Body>

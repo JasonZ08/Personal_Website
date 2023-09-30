@@ -16,23 +16,23 @@ function Projects(){
         },
         {
             "title" : "Bookshelf Scanning Application",
-            "text" : "The purpose of this project was to identify all information regarding a book (ISBN, paes, description) based" +   
-            "on the books spine. This way, users can just take a picture of a group of books on a shelf or in a library, and know all there is to about all the books " +
-            "without having to flip through each one" + 
-            "\n \nTechnologies Used: Python, YOLOv5, Tkinter, NumPy, Torch, Pytesseract, Beautiful Soup, OpenCV"
+            "text" : "Imagine there's a shelf full of books right in front of you, and you don't know what books you want or need. "
+            + "Well, this Bookshelf Scanning Application can retrieve all the information (ISBN, page count, summary) on all the books solely based "
+            + "on the books spine. This way, you won't have to go through each book and read a summary to determine if you want the book or not."
+            + "\n \nTechnologies Used: Python, YOLOv5, Tkinter, NumPy, Torch, Pytesseract, Beautiful Soup, OpenCV"
         },
         {
             "title" : "Random Forest Optimization",
-            "text" : "This project was a fun experiment to see if I could optimize Random Forest to perform even better."
+            "text" : "Random Forest Optimization was a fun experiment to see if I could optimize the Random Forest to perform even better. "
             + "The idea behind this project was that Random Forest also considers features that are irrelevant to the class variable. "
             + "Thus, if Random Forest puts emphasis on more useful features, it may have a better accuracy."
             + "\n \nTechnologies Used: Python, NumPy, Pandas, Scikit-learn, Matplotlib"
         },
         {
             "title" : "Theft Detection",
-            "text" : "Given a video, this project attempted to identify at which times certain objects disappeared from the video."
-            + "This project kept track of all the items at each frame of the video, and if the count of an object decreased after a certain amount of time,"
-             +"a warning would be issued that the object had disappeared. \n\nTechnologies Used: Python, NumPy, OpenCV, YOLOv5, Tkinter"
+            "text" : "Given a video, Theft Detection attempted to identify at which times certain objects disappeared from the video."
+            + " This project kept track of all the items at each frame of the video, and if the count of an object decreased after a certain amount of time,"
+             +" a warning would be issued that the object had disappeared. \n\nTechnologies Used: Python, NumPy, OpenCV, YOLOv5, Tkinter"
         }
     ]
 
